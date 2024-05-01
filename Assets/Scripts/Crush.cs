@@ -12,4 +12,6 @@ public class Crush : MonoBehaviour
     }
 
     public CrushType GetType() => type;
+
+    public void DestroyCrush() => Destroy(gameObject);
 }
